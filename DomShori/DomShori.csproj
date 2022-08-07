@@ -6,4 +6,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\img\first.jpg" />
+    <None Include="wwwroot\img\five.jpg" />
+    <None Include="wwwroot\img\second.jpg" />
+    <None Include="wwwroot\img\Seven.jpg" />
+    <None Include="wwwroot\img\Six.jpg" />
+    <None Include="wwwroot\img\third.jpg" />
+  </ItemGroup>
+
 </Project>
