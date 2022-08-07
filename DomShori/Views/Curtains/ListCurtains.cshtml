@@ -1,0 +1,12 @@
+﻿
+		<h2>Все шторы</h2>
+		<h3>@Model.currCategory</h3>
+	@{
+		foreach (var curtain in Model.AllCurtains)
+		{
+			<div>
+			<h1>Название: @curtain.name</h1>
+			<p>Цена с тюлью: @curtain.priceWithTulle.ToString("c")</p>
+			</div>
+		}
+	}
